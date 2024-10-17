@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit/Debit Card Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=credit_card" />
+</head>
+<body>
+    <div class="card-form">
+        <h2>Credit / Debit card</h2>
+        <div class="card">
+            <img src="img/Card.png" alt="Credit Card Image">
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="input-group" style="display: flex; align-items: center; position: relative; justify-content: right;">
+            <input type="text" placeholder="Card Number">
+            <img style="position: absolute; padding-left: 6px; padding-right: 6px;" src="img/mc_symbol 2.png" alt="">
+        </div>
+        <div class="input-group expiry">
+            <input style='margin-right: 10px;' type="text" placeholder="MM/YY">
+            <div class="input-group" style="margin:0; display: flex; align-items: center; position: relative; justify-content: right;">
+                <input type="text" placeholder="CVC">
+                <span class="material-symbols-outlined" style="position: absolute; padding-left: 6px; padding-right: 6px;">
+                    credit_card
+                </span>
+            </div>
+            
+        </div>
+        <a href="index.html"><button class="submit-btn">USE THIS CARD</button></a>
+    </div>
+</body>
+</html>
